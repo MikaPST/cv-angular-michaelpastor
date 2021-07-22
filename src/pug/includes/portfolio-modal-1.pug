@@ -1,0 +1,46 @@
+// Expérience Modal 1
+#experienceModal1.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='experienceModal1', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Expérience Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Dimo Software
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-flask
+                                .divider-custom-line
+                            // Expérience Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/modal-dimo.png', alt='...')
+                            // Expérience Modal - Text
+                            p.mb-4.modal-text.modal-intro
+                                | DIMO SOFTWARE, éditeur et intégrateur de solutions logicielles de gestion, ils ne comptent pas moins de 410 dimosiens à satisfaire leurs 6000 clients répartis dans plus de 100 pays. Ils sont basés à Lyon, Paris, Nantes, Biarritz, Madrid, Toronto et Montréal.
+                            // Skills Section Content
+                            .row
+                                .ms-auto.modal-text
+                                    p.lead
+                                        | Je participe aux évolutions du système d’informations (applicatif, urbanisation, interfaces, référentiel, documentation…) ainsi qu'au développement de l'outil de support (PHP, Git, Linux). Mes missions sont diverses et je suis également chargé de :
+                                        br
+                                .col-lg-6.me-auto.modal-text.modal-text-mission
+                                        | - Cartographier le SI et mettre en place d’une politique d’urbanisation.
+                                        br
+                                        | - Analyser et créer des interfaces avec les logiciels métiers (CRM, ERP, Trésorerie…) au travers d’un ETL (TALEND ou Stambia).
+                                        br
+                                        | - Faire le suivi de l’exploitation quotidienne des applicatifs.
+                                .col-lg-6.me-auto.modal-text.modal-text-mission
+                                        | - Mettre en place un tableau de bord et des alertes d’exploitation.
+                                        br
+                                        | - Développement web (PHP, CSS, Wordpress).
+                                        br
+                                        | - Administration et Sécurisation Web sur Linux
+                                        br
+                                        | - Gestion / Protection des Noms de domaines.
+                            button.btn.btn-primary(href='#!', data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Fermer la Fenêtre

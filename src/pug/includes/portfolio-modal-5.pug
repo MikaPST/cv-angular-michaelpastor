@@ -1,0 +1,44 @@
+// Portfolio Modal 5
+#experienceModal5.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal5', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 RECALBOX
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/modal-game.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4.modal-text.modal-intro
+                                | Recalbox est un système d'exploitation Linux libre et gratuit dédié à l'émulation, la préservation et l'accessibilité des vieux jeux vidéo.
+                            .row
+                                .ms-auto.modal-text
+                                    p.lead
+                                        | Fier membre actif de la grande communauté Récalbox. Je partage mon expérience de Développeur et j'endosse le rôle de Bêta-Testeur dans le but d'une amélioration continue de ce magnifique projet de gamer nostalgique.
+                                .col-lg-6.me-auto.modal-text.modal-text-mission
+                                    br
+                                    | - Test des versions Recalbox Raspberry Pi
+                                    br 
+                                    | - Envoi des logs
+                                    br 
+                                    | - Signalement des bugs
+                                .col-lg-6.me-auto.modal-text.modal-text-mission
+                                    br
+                                    | - Création de thème Récalbox et Personnalisation
+                                    br 
+                                    | - Développement sur la partie gestion des écrans
+                                    br 
+                                    | - Scrapping et ajout d'informations complémentaires sur les jeux roms
+                            button.btn.btn-primary(href='#!', data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Fermer la Fenêtre

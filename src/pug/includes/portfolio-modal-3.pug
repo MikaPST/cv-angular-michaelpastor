@@ -1,0 +1,42 @@
+// Portfolio Modal 3
+#experienceModal3.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal3', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 MICROTECK MSI
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/circus.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4.modal-text.modal-intro
+                                | Microteck MSI est une micro-entreprise informatique qui propose une Multitude de Service Informatique qui réponde aux besoins des particuliers et des professionnels de tout secteur d'activité
+                            .row
+                                .ms-auto.modal-text
+                                    p.lead
+                                        | Auto-entrepreneur de mon entreprise Microteck MSI en 2013, j'ai pu exercer une activité professionnelle auprès de particuliers et professionnels. Les services que je proposais sont :
+                                .col-lg-6.me-auto.modal-text.modal-text-mission
+                                    br
+                                    | - Devis, Vente et Montage de PC sur mesure
+                                    br 
+                                    | - Réparation de materiel informatique
+                                    br 
+                                    | - Installation de box internet et équipement informatique
+                                .col-lg-6.me-auto.modal-text.modal-text-mission
+                                    br
+                                    | - Infographie : Création de logo, charte graphique et identité visuelle pour professionnel
+                                    br 
+                                    | - Installation domotique : Alarme, Caméra IP de sécurité, Capteur anti-intrusion, Thermostat connecté etc
+                            button.btn.btn-primary(href='#!', data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Fermer la Fenêtre

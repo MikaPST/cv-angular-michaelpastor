@@ -1,0 +1,40 @@
+// Portfolio Modal 2
+#experienceModal2.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal2', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 VAL SOLUTION
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/modal-val.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4.modal-text.modal-intro
+                                | VAL Solutions conçoit, réalise et met en oeuvre une suite logicielle innovante dédiée à la Santé au Travail et à la Prévention des Risques professionnels de l’Homme au travail.
+                            .row
+                                .ms-auto.modal-text
+                                    p.lead
+                                        | À tant que Développeur C# .NET, mes missions étaient de concevoir et développer une API RESTful en Winform pour un client lourd et l'intégrer dans la solution logicielle de VAL SOLUTION.
+                                .col-lg-6.me-auto.modal-text.modal-text-mission
+                                    br
+                                    | - Développement sur une interface ASP.net
+                                    br 
+                                    | - Utilisation d'un web servce SAP (Business Object)
+                                .col-lg-6.me-auto.modal-text.modal-text-mission
+                                    br
+                                    | - Consommation d'une BDD pour générer des rapports statistiques dynamiques
+                                    br 
+                                    | - Intégration du code dans la solution (Préventiel)
+                            button.btn.btn-primary(href='#!', data-bs-dismiss='modal')
+                                i.fas.fa-times.fa-fw
+                                | Fermer la Fenêtre
