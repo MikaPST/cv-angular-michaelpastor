@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
+![screenshoot](https://user-images.githubusercontent.com/56961056/127628769-0f28caed-4f0c-43b1-8f33-ac104050629f.png)
+
 ## Project launch
 
 Do the following command lines to download all the dependencies of the project: `npm i`
