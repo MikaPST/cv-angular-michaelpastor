@@ -22,8 +22,6 @@ window.addEventListener('DOMContentLoaded', event => {
         }
 
     };
-
-    // JS Gauge Skill
     
     // Shrink the navbar 
     navbarShrink();
@@ -52,7 +50,5 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
-    // Calcule de l'age
     
 });
